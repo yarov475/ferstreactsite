@@ -1,7 +1,33 @@
 
 body{
-  background-color: darkred;
-  color: darkred;
-  height: 10000px;
+  text-align: justify;
 
+}
+h1{
+  text-align: center;
+  color: darkblue;
+}
+
+body{
+  height: 100px;
+}
+
+.Carousel img {
+  height: 100px;
+
+}
+.cardsBar img {
+  width: 250px;
+  height: 200px;
+}
+.cardsBar  {
+  display: flex;
+  justify-content: space-around;
+  font-weight: wrap;
+}
+.tabImg{
+  float: left;
+}
+.tabAll{
+  margin-top: 20px;
 }
