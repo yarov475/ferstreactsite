@@ -31,3 +31,4 @@ body{
 .tabAll{
   margin-top: 20px;
 }
+@use "@material/fab/mdc-fab";

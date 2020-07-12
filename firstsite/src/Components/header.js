@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import Navbar from "react-bootstrap/Navbar";
-import logo from './logo192.png'
+import logo from './../assets/kite.png'
 import Nav from "react-bootstrap/Nav";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
@@ -26,7 +26,7 @@ export default class Header extends Component {
 
         return (
             <>
-            <Navbar   collapseOnselect expand="md" bg="primary" variant="dark">
+            <Navbar   collapseOnselect expand="md" bg="success" variant="dark">
                 <Container>
                     <Navbar.Brand href="/">
 
@@ -36,7 +36,7 @@ export default class Header extends Component {
                             width="30"
                             className="d-inline-block align-top"
                             alt="logo"
-                            />  Mariinskiy
+                            />  Mariinskiy CREW
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse id ="responsive-navbar-nav">

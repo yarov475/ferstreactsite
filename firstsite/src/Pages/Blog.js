@@ -1,40 +1,44 @@
 import React, {Component} from "react";
 import Card from "react-bootstrap/Card";
 import CardColumns from "react-bootstrap/CardColumns";
+import A from './../assets/bst3.jpg';
+import B from './../assets/backStage.jpg';
+import C from './../assets/backStage2.jpg';
+
 export default class Blod extends Component{
     render() {
         return(
             <CardColumns>
                 <Card>
-                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Img variant="top" src={A} />
                     <Card.Body>
-                        <Card.Title>Card title that wraps to a new line</Card.Title>
+                        <Card.Title>Актер</Card.Title>
                         <Card.Text>
-                            This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
+                             – живая связь между текстом автора, сценическими указаниями режиссера и восприятием зрителя. В истории театра эта трудная задача превращала актера то в личность, обожаемую и мистифицированную, то в существо, презираемое обществом с почти инстинктивным страхом. Долгое время термин «актер» обозначал действующее лицо пьесы; затем – исполнителя роли, ремесленника сцены, комедианта.  .
                         </Card.Text>
                     </Card.Body>
                 </Card>
                 <Card className="p-3">
                     <blockquote className="blockquote mb-0 card-body">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                            erat a ante.
+                            Театр — канал, посредством которого льётся непосредственно в народные массы то, что вырабатывает наука и знание.
+
                         </p>
                         <footer className="blockquote-footer">
                             <small className="text-muted">
-                                Someone famous in <cite title="Source Title">Source Title</cite>
+
+                               <cite title="Source Title"> Ф. Шиллер</cite>
                             </small>
                         </footer>
                     </blockquote>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Img variant="top" src={B} />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>У Роджерс</Card.Title>
                         <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                            content.{' '}
+                            Театр: единственное место, где бедные свысока глядят на богатых.
+                            {' '}
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -44,22 +48,26 @@ export default class Blod extends Component{
                 <Card bg="primary" text="white" className="text-center p-3">
                     <blockquote className="blockquote mb-0 card-body">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                            erat a ante.
+                            Театр — сильнейшее оружие, но, как и всякое оружие, о двух концах: оно может приносить великое благо людям и может быть величайшим злом.
+
                         </p>
                         <footer className="blockquote-footer">
                             <small className="text-muted">
-                                Someone famous in <cite title="Source Title">Source Title</cite>
+                                <cite title="Source Title">В. Гюго
+                                    </cite>
                             </small>
                         </footer>
                     </blockquote>
                 </Card>
                 <Card className="text-center">
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>Авансцена</Card.Title>
                         <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                            content.{' '}
+                             – пространство сцены между занавесом и зрительным залом.
+
+                            В качестве игровой площадки авансцена широко используется в оперных и балетных спектаклях. В драматических театрах авансцена служит основным местом действия для небольших сцен перед закрытым занавесом, которые связывают картины спектакля.
+
+                            Некоторые режиссеры выносят на авансцену основное действие, расширяя сценическую площадку..{' '}
                         </Card.Text>
                         <Card.Text>
                             <small className="text-muted">Last updated 3 mins ago</small>
@@ -67,28 +75,28 @@ export default class Blod extends Component{
                     </Card.Body>
                 </Card>
                 <Card>
-                    <Card.Img src="holder.js/100px160" />
+                    <Card.Img src={C} />
                 </Card>
                 <Card className="text-right">
                     <blockquote className="blockquote mb-0 card-body">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                            erat a ante.
+                            Если двое разговаривают, а третий слушает их разговор, – это уже театр.
+
                         </p>
                         <footer className="blockquote-footer">
                             <small className="text-muted">
-                                Someone famous in <cite title="Source Title">Source Title</cite>
+                               польский актер<cite title="Source Title">Густав Холоубек (р. 1923),
+                               </cite>
                             </small>
                         </footer>
                     </blockquote>
                 </Card>
                 <Card>
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>Виссарион Белинский (1811 – 1848), критик</Card.Title>
                         <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to
-                            show that equal height action.
+                            Что же такое театр? О, это истинный храм искусства!
+
                         </Card.Text>
                         <Card.Text>
                             <small className="text-muted">Last updated 3 mins ago</small>
